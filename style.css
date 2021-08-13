@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1525034687081-c702010cb70d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29vZCUyMHRleHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+}
+#title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+.subtitles {
+    font-size:  xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-size: 23px;
+    font-weight: 'verdana';
+}
+.introduction {
+    background-color: firebrick;
+    width: 40%;
+}
+.explanation {
+    background-color: steelblue;
+    width: 40%;
+    float: right;
+}
+.code {
+    clear: both;
+    background-color: black;
+    font-size: 18px !important;
+    text-align: left;
+    width: 50%;
+    height: 500px;
+    overflow: scroll;
+    color: white;
+}
+code {
+    width: 60%;
+    height: 100px;
+}
+canvas {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 150%;
+    left: 0;
+}
+#can0 {
+    background-image: url("Background.png");
+    background-size: auto 768px;
+    background-repeat: repeat-x;
+}
+.options {
+    background-color: green;
+    width: 40%;
+    float: right;
+    position: absolute;
+    top: 300%;
+    left: 0;
+}
